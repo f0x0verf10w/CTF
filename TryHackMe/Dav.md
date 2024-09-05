@@ -1,7 +1,7 @@
 **This chall is on Tryhackme**
 
 [Click here](https://tryhackme.com/r/room/bsidesgtdav)
-
+First, I use nmap to recon about the target
 ![nmap](https://github.com/user-attachments/assets/83ac7817-f49e-439f-b7d3-8db143975ecf)
 see ya !,we had a website on port 80,So I paste the IP adress in the browser and it shows us the default apache server page. =)) <br>
 
@@ -38,10 +38,13 @@ Next,we will use Curl to send reverse shell to website:
 ![upload](https://github.com/user-attachments/assets/131ee76c-371b-4e1f-84f6-135eb3287402)
 we reload the website and see the our reverse shell:
 ![shell](https://github.com/user-attachments/assets/c1d1b22c-28ee-4596-92d9-2e890359a8c2)
+
 Next, I use Netcat to catch the connect with our shell and and click to activate the shell:
  ![nc](https://github.com/user-attachments/assets/e24ed001-d37c-4b7e-932c-9a4271017b56)
 I find the user's flag in /home/merlin
+
 ![usr](https://github.com/user-attachments/assets/6eed8092-c2f0-40e1-a953-8d9cdcbdb185)
+
 To get root's flag,I have to escalate privileges
 Let's do it!!!
 
