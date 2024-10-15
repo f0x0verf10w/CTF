@@ -1,0 +1,7 @@
+solve r4 pcap at https://ctfd.anuies.mx/challenges#UH%20HA%20HA-12
+tshark -r r4.pcap --export-objects ftp-data,./
+eog r3.png
+we had a password
+7z x r2.7z 
+it requires a password that i find above
+enter it and we had .txt file ,it contains a flag
